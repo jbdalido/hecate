@@ -20,7 +20,6 @@ type MesosResponse struct {
 type MesosApp struct {
 	Id        string            `json:"id"`
 	Instances []*MesosEndpoints `json:"tasks"`
-	//Tasks     []*MesosEndpoints `json:"tasks"`
 }
 
 type MesosEndpoints struct {
